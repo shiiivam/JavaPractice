@@ -1,6 +1,6 @@
 
 class ConPrac{
-    int no1;
+    int no1, no2;
     
     ConPrac(){
         no1 = 5;
@@ -8,6 +8,7 @@ class ConPrac{
     
     ConPrac(int no){
         no1 = no;
+        no2 = 30
     }
     
     public void func1(){
